@@ -1,259 +1,168 @@
 const ProductsData = [
     {
         id: 1,
-        title: "Industrial Sweeping Machines",
-        tag: "krugervac/industrial-sweeping-machines",
+        title: "Walk Behind Automatic Scrubber Driers",
+        tag: "krugervac/walk-behind-automatic-scrubber-driers",
         description: "Our Walk Behind Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
         cover: require("../../Assets/Products/Walk Behind Scrubber Driers.png"),
         products: [
             {
                 id: 1,
-                cover: require("../../Assets/Products/INDUSTRIAL SWEEPING MACHINES.png"),
-                // featurescov: require("../../Assets/Products/INDUSTRIAL SWEEPING MACHINES 1.png"),
-
+                cover: require("../../Assets/Products/Walk Behind.png"),
+                featurescov: require("../../Assets/Products/Walk Behindfet.png"),
                 heading: [
-                    {
-                        id: 1,
-                        title: ""
-                    },
-                    {
-                        id: 1,
-                        title: "Our Advantages"
-                    },
-                    {
-                        id: 1,
-                        title: ""
-                    },
-                ],
-                features: [
-                    {
-                        id: 9,
-                        side: "Large capacity design",
-                        detail1: "35 to 120L garbage bin capacity",
-                        detail2: " No need to dump repeatedly, High cleaning efficiency",
-                    },
-                    {
-                        id: 10,
-                        side: "The compact design",
-                        detail1: "Wide 360-degree field of view",
-                        detail2: "Can drive the machine through narrow areas easily.",
-                    },
-                    {
-                        id: 11,
-                        side: "Sweeping, vacuuming, spray",
-                        detail1: "Three-in-one System",
-                        detail2: " Cleaning width reaches 1600 mm",
-                    },
-                    {
-                        id: 12,
-                        side: "High-power drive motor",
-                        detail1: "Strong climbing ability with 25 deg. climbing angle",
-                        detail2: "40 to 150 L spray water tank capacity",
-                    },
-                ],
-                heading2: [
-                    {
-                        id: 1,
-                        title: ""
-                    },
-                    {
-                        id: 1,
-                        title: "Features"
-                    },
-                    {
-                        id: 1,
-                        title: ""
-                    },
-                ],
-                features2: [
-                    {
-                        id: 9,
-                        side: "Excellent dust filtration effect,",
-                        detail1: "The built-in powerful dust control system ",
-                        detail2: "Can effectively slowdown flow rate of dust-containing air.",
-                    },
-                    {
-                        id: 10,
-                        side: "the chassis adopts rugged steel frame,",
-                        detail1: " Durability and reliable performance.",
-                        detail2: "Flip board design to clean up larger garbage",
-                    },
-                    {
-                        id: 11,
-                        side: "Atomization watering technology",
-                        detail1: "Excellent dust control effect,",
-                        detail2: "Maintains good air quality",
-                    },
-                    {
-                        id: 12,
-                        side: "Advanced maintenance-free battery",
-                        detail1: "No leakage, no harmful gases",
-                        detail2: "High-performance",
-                    },
-                    {
-                        id: 12,
-                        side: "Solid high-elastic tires,",
-                        detail1: " No need to inflate",
-                        detail2: "Durable and easy to use",
-                    },
-                    {
-                        id: 12,
-                        side: "One-touch control",
-                        detail1: "  Simple operation",
-                        detail2: "Without the driver taking his hands off the steering wheel.",
-                    },
-                    {
-                        id: 12,
-                        side: "Dual disc brake device",
-                        detail1: "Work safety is guaranteed",
-                        detail2: "Large filter surface area for continuos use",
-                    },
-                    {
-                        id: 12,
-                        side: "Ergonomic design",
-                        detail1: "The seat effectively supports the waist",
-                        detail2: "Work for a long time without fatigue.",
-                    },
-                ],
-                heading3: [
                     {
                         id: 1,
                         title: "Technical Data"
                     },
                     {
                         id: 2,
-                        title: "Sweeping Width"
+                        title: " "
                     },
                     {
                         id: 3,
-                        title: "Main Brush Width"
+                        title: "KV-35 Cable"
                     },
                     {
                         id: 4,
-                        title: "Power Supply"
+                        title: "KV-50 Cable"
                     },
                     {
                         id: 5,
-                        title: "Max. Productivity"
+                        title: "GT-50 Cable"
                     },
                     {
                         id: 6,
-                        title: "Garbage Tank Capacity"
+                        title: "CT-50 Battery"
                     },
                     {
                         id: 7,
-                        title: "Spray Water Tank Capacity"
+                        title: "KV-55 Cable/Battery"
                     },
                     {
                         id: 8,
-                        title: "Filter Surface Area"
-                    },
-                    {
-                        id: 9,
-                        title: "Filter Shaking"
-                    },
-                    {
-                        id: 10,
-                        title: "Maximum speed"
-                    },
-                    {
-                        id: 11,
-                        title: "Weight / Dimensions"
+                        title: "KV-65 Cable/Battery"
                     },
                 ],
-                features3: [
+                features: [
                     {
                         id: 9,
-                        side: "MODEL",
+                        side: "Scrubbing Width",
                         detail1: "mm",
-                        detail2: "mm",
-                        detail3: "-",
-                        detail4: "Sq. mtr/Hr",
-                        detail5: "Ltrs",
-                        detail6: "Ltrs",
-                        detail7: "Sq. mtr",
-                        detail8: "-",
-                        detail9: "Km/Hr",
-                        detail10: "Kg/cm",
+                        detail2: "455",
+                        detail3: "510",
+                        detail4: "500",
+                        detail5: "510",
+                        detail6: "530",
+                        detail7: "530",
                     },
                     {
                         id: 10,
-                        side: "All Clean",
-                        detail1: "700",
-                        detail2: "500",
-                        detail3: "Manual",
-                        detail4: "1750",
-                        detail5: "40",
-                        detail6: "-",
-                        detail7: "-",
-                        detail8: "-",
-                        detail9: "-",
-                        detail10: "25 / 40x79x75",
+                        side: "Squeegee Width",
+                        detail1: "mm",
+                        detail2: "755",
+                        detail3: "755",
+                        detail4: "815",
+                        detail5: "755",
+                        detail6: "790",
+                        detail7: "790",
                     },
                     {
                         id: 11,
-                        side: "KV-900",
-                        detail1: "1000",
-                        detail2: "400",
-                        detail3: "Battery 12V",
-                        detail4: "3500",
-                        detail5: "35",
-                        detail6: "-",
-                        detail7: "1",
-                        detail8: "Manual",
-                        detail9: "0 to 4",
-                        detail10: "38 / 103x61x99",
+                        side: "No. of Brushes",
+                        detail1: "-",
+                        detail2: "1(Disc)",
+                        detail3: "1(Disc)",
+                        detail4: "1(Disc)",
+                        detail5: "1(Disc)",
+                        detail6: "1(Disc)",
+                        detail7: "1(Disc)",
                     },
                     {
                         id: 12,
-                        side: "KV-1000",
-                        detail1: "1050",
-                        detail2: "500",
-                        detail3: "Battery 48V",
-                        detail4: "4000",
-                        detail5: "45",
-                        detail6: "40",
-                        detail7: "2",
-                        detail8: "Manual",
-                        detail9: "0 to 4",
-                        detail10: "95 / 85x90x100",
+                        side: "Max. Productivity",
+                        detail1: "Sq.m/Hr.",
+                        detail2: "1700",
+                        detail3: "1800",
+                        detail4: "2000",
+                        detail5: "1800",
+                        detail6: "2120",
+                        detail7: "2250",
                     },
                     {
                         id: 13,
-                        side: "KV-1400",
-                        detail1: "1380",
-                        detail2: "600",
-                        detail3: "Battery 48V",
-                        detail4: "10800",
-                        detail5: "120",
-                        detail6: "90",
-                        detail7: "6",
-                        detail8: "Electric",
-                        detail9: "0 to 9",
-                        detail10: "332 / 158x93x126",
+                        side: "Solution Tank Capacity",
+                        detail1: "Ltr.",
+                        detail2: "32",
+                        detail3: "45",
+                        detail4: "50",
+                        detail5: "45",
+                        detail6: "50",
+                        detail7: "60",
                     },
                     {
                         id: 14,
-                        side: "KV-1600",
-                        detail1: "1570",
-                        detail2: "800",
-                        detail3: "Battery 48V",
-                        detail4: "12400",
-                        detail5: "150",
-                        detail6: "150",
-                        detail7: "8",
-                        detail8: "Electric",
-                        detail9: "0 to 9",
-                        detail10: "423 / 182x113x139",
+                        side: "Recovery Tank Capacity",
+                        detail1: "Ltr.",
+                        detail2: "35",
+                        detail3: "50",
+                        detail4: "50",
+                        detail5: "50",
+                        detail6: "55",
+                        detail7: "65",
                     },
-                ],
+                    {
+                        id: 15,
+                        side: "Main Supply",
+                        detail1: "Volt/Hz",
+                        detail2: "220/50",
+                        detail3: "220/50",
+                        detail4: "220/50",
+                        detail5: "24V/110Ah",
+                        detail6: "220/50,24V/110Ah",
+                        detail7: "220/50,24V/110Ah",
+                    },
+                    {
+                        id: 16,
+                        side: " Brush Diameter",
+                        detail1: "mm",
+                        detail2: "455",
+                        detail3: "510",
+                        detail4: "500",
+                        detail5: "510",
+                        detail6: "530",
+                        detail7: "530",
+                    },
+                    {
+                        id: 17,
+                        side: "Maximum  Speed",
+                        detail1: "Km/Hr.",
+                        detail2: "3.5",
+                        detail3: "3.5",
+                        detail4: "4",
+                        detail5: "3.5",
+                        detail6: "4",
+                        detail7: "4.5",
+                    },
+                    {
+                        id: 18,
+                        side: "Weight",
+                        detail1: "Kg.",
+                        detail2: "76",
+                        detail3: "68",
+                        detail4: "89",
+                        detail5: "78",
+                        detail6: "90/145",
+                        detail7: "95/150",
+                    },
+                ]
             },
         ]
     },
     {
         id: 2,
-        title: "Road Sweeping Machines",
-        tag: "krugervac/road-sweeping-machines",
+        title: "Ride On Automatic Scrubber Driers",
+        tag: "krugervac/ride-on-automatic-scrubber-driers",
         description: "Our Automatic Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
         cover: require("../../Assets/Products/Walk Behind Automatic Scrubber Driers.png"),
         products: [
@@ -393,6 +302,321 @@ const ProductsData = [
                         detail10: "435/160x110x142",
                     },
                 ]
+            },
+            {
+                id: 2,
+                cover: require("../../Assets/Products/rideon2.png"),
+                featurescov: require("../../Assets/Products/ridon2fet.png"),
+                heading: [
+                    {
+                        id: 1,
+                        title: "Technical Data"
+                    },
+                    {
+                        id: 2,
+                        title: "Scrubbing Width"
+                    },
+                    {
+                        id: 3,
+                        title: "Squeegee Width"
+                    },
+                    {
+                        id: 4,
+                        title: "No. of Brushes"
+                    },
+                    {
+                        id: 5,
+                        title: "Max. Productivity"
+                    },
+                    {
+                        id: 6,
+                        title: "Solution Tank Capacity"
+                    },
+                    {
+                        id: 7,
+                        title: "Recovery Tank Capacity"
+                    },
+                    {
+                        id: 8,
+                        title: "Main Supply"
+                    },
+                    {
+                        id: 9,
+                        title: "Brush Diameter"
+                    },
+                    {
+                        id: 10,
+                        title: "Maximum Speed"
+                    },
+                    {
+                        id: 11,
+                        title: "Weight"
+                    },
+                ],
+                features: [
+                    {
+                        id: 12,
+                        side: "MODEL",
+                        detail1: "mm",
+                        detail2: "mm",
+                        detail3: "-",
+                        detail4: "Sq.mty/Hr",
+                        detail5: "Ltrs",
+                        detail6: "Ltrs",
+                        detail7: "Volts/Ah",
+                        detail8: "mm",
+                        detail9: "Km/Hr",
+                        detail10: "Kg",
+                    },
+                    {
+                        id: 13,
+                        side: "KV-180",
+                        detail1: "960",
+                        detail2: "1200",
+                        detail3: "2",
+                        detail4: "8640",
+                        detail5: "165",
+                        detail6: "180",
+                        detail7: "24/240",
+                        detail8: "480 x 2",
+                        detail9: "0 to 9",
+                        detail10: "435",
+                    },
+                    {
+                        id: 14,
+                        side: "KV-270",
+                        detail1: "1060",
+                        detail2: "1380",
+                        detail3: "2",
+                        detail4: "9540",
+                        detail5: "250",
+                        detail6: "270",
+                        detail7: "36/240",
+                        detail8: "530 x 2",
+                        detail9: "0 to 9",
+                        detail10: "583",
+                    },
+                ],
+                heading2: [
+                    {
+                        id: 15,
+                        title: "Technical Data"
+                    },
+                    {
+                        id: 16,
+                        title: "Traction motor Watts"
+                    },
+                    {
+                        id: 17,
+                        title: "Brush motor Watts"
+                    },
+                    {
+                        id: 18,
+                        title: "Vacuum motor Watts"
+                    },
+                    {
+                        id: 19,
+                        title: "Brush pressure MPa"
+                    },
+                    {
+                        id: 20,
+                        title: "Brush speed rpm"
+                    },
+                    {
+                        id: 21,
+                        title: "Grade ability %"
+                    },
+                    {
+                        id: 22,
+                        title: "No. of Batteries"
+                    },
+                    {
+                        id: 23,
+                        title: "Working Hours"
+                    },
+                    {
+                        id: 24,
+                        title: "Noise level dBA"
+                    },
+                    {
+                        id: 25,
+                        title: "Dimensions (LxWxH) cm"
+                    },
+                ],
+                features2: [
+                    {
+                        id: 26,
+                        side: "KV-180",
+                        detail1: "800",
+                        detail2: "550 x 2",
+                        detail3: "554",
+                        detail4: "4.5",
+                        detail5: "180",
+                        detail6: "<25",
+                        detail7: "4 x 6V",
+                        detail8: "3 to 5",
+                        detail9: "67",
+                        detail10: "163 x 87 x 140",
+                    },
+                    {
+                        id: 27,
+                        side: "KV-270",
+                        detail1: "850",
+                        detail2: "650 x 2",
+                        detail3: "800",
+                        detail4: "4.5",
+                        detail5: "180",
+                        detail6: "<25",
+                        detail7: "6 x 6V",
+                        detail8: "4 to 6",
+                        detail9: "65",
+                        detail10: "187 x 108 x 146",
+                    },
+                ],
+            },
+            {
+                id: 3,
+                title: "KV-110",
+                cover: require("../../Assets/Products/rideon3.png"),
+                featurescov: require("../../Assets/Products/ridon3fet.png"),
+                heading: [
+                    {
+                        id: 1,
+                        title: "Technical Data"
+                    },
+                    {
+                        id: 2,
+                        title: "Scrubbing Width"
+                    },
+                    {
+                        id: 3,
+                        title: "Squeegee Width"
+                    },
+                    {
+                        id: 4,
+                        title: "No. of Brushes"
+                    },
+                    {
+                        id: 5,
+                        title: "Max. Productivity"
+                    },
+                    {
+                        id: 6,
+                        title: "Solution Tank Capacity"
+                    },
+                    {
+                        id: 7,
+                        title: "Recovery Tank Capacity"
+                    },
+                    {
+                        id: 8,
+                        title: "Main Supply"
+                    },
+                    {
+                        id: 9,
+                        title: "Brush Diameter"
+                    },
+                    {
+                        id: 10,
+                        title: "Maximum Speed"
+                    },
+                    {
+                        id: 11,
+                        title: "Weight / Dimensions"
+                    },
+                ],
+                features: [
+                    {
+                        id: 12,
+                        side: "MODEL",
+                        detail1: "mm",
+                        detail2: "mm",
+                        detail3: "-",
+                        detail4: "Sq.mty/Hr",
+                        detail5: "Ltrs",
+                        detail6: "Ltrs",
+                        detail7: "Voltas",
+                        detail8: "mm",
+                        detail9: "Km/Hr",
+                        detail10: "Kg",
+                    },
+                    {
+                        id: 13,
+                        side: "KV-400",
+                        detail1: "1120",
+                        detail2: "1380",
+                        detail3: "2-3",
+                        detail4: "10080",
+                        detail5: "390",
+                        detail6: "400",
+                        detail7: "36/440",
+                        detail8: "560",
+                        detail9: "0 to 9",
+                        detail10: "1164",
+                    },
+                ],
+                heading2: [
+                    {
+                        id: 14,
+                        title: "Technical Data"
+                    },
+                    {
+                        id: 15,
+                        title: "Traction motor Watts"
+                    },
+                    {
+                        id: 16,
+                        title: "Brush motor Watts"
+                    },
+                    {
+                        id: 17,
+                        title: "Vacuum motor Watts"
+                    },
+                    {
+                        id: 18,
+                        title: "Lifting motor Watts"
+                    },
+                    {
+                        id: 19,
+                        title: "Brush speed rpm"
+                    },
+                    {
+                        id: 20,
+                        title: "Brush pressure MPa"
+                    },
+                    {
+                        id: 21,
+                        title: "No. of Batteries"
+                    },
+                    {
+                        id: 22,
+                        title: "Working Hours"
+                    },
+                    {
+                        id: 23,
+                        title: "Noise level dBA"
+                    },
+                    {
+                        id: 24,
+                        title: "Dimensions (LxWxH) cm"
+                    },
+                ],
+                features2: [
+                    {
+                        id: 25,
+                        side: "KV-400",
+                        detail1: "1500",
+                        detail2: "680 x 2",
+                        detail3: "554 x 2",
+                        detail4: "100 x 2",
+                        detail5: "215",
+                        detail6: "4.8",
+                        detail7: "36 V",
+                        detail8: "6 to 8",
+                        detail9: "67",
+                        detail10: "223 x 135 x 154",
+                    },
+                ],
             },
         ]
     },

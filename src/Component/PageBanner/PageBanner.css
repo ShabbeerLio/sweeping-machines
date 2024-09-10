@@ -1,5 +1,6 @@
 .PageBanner {
   position: relative;
+  margin-top: 2rem;
 }
 .PageBanner img {
   width: 100%;
@@ -55,6 +56,6 @@
   }
   .PageBanner p {
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
   }
 }

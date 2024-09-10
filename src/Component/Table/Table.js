@@ -59,34 +59,6 @@ const Table = ({ item, index }) => {
                     </tbody>
                 </table>
             )}
-            {item.heading3 && item.features3 && (
-                <table>
-                    <thead>
-                        <tr>
-                            {item.heading3.map((j) => (
-                                <th key={`heading2-${j.id}`}>{j.title}</th>
-                            ))}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {item.features3.map((j) => (
-                            <tr key={j.id}>
-                                {j.side && <td>{j.side}</td>}
-                                {j.detail1 && <td>{j.detail1}</td>}
-                                {j.detail2 && <td>{j.detail2}</td>}
-                                {j.detail3 && <td>{j.detail3}</td>}
-                                {j.detail4 && <td>{j.detail4}</td>}
-                                {j.detail5 && <td>{j.detail5}</td>}
-                                {j.detail6 && <td>{j.detail6}</td>}
-                                {j.detail7 && <td>{j.detail7}</td>}
-                                {j.detail8 && <td>{j.detail8}</td>}
-                                {j.detail9 && <td>{j.detail9}</td>}
-                                {j.detail10 && <td>{j.detail10}</td>}
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            )}
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import Aboutimg from "../../Assets/logo.jpg"
+import Aboutimg from "../../Assets/logo.png"
 import { Link } from 'react-router-dom';
 import SocialMedia from './SocialMedia';
 
@@ -46,10 +46,10 @@ const Footer = () => {
                             <h2>Our Products</h2>
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/industrial-sweeping-machines">Industrial Sweeping Machines</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/walk-behind-automatic-scrubber-driers">Walk Behind Automatic Scrubber Driers</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/road-sweeping-machines">Ride On Automatic Scrubber Driers</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/ride-on-automatic-scrubber-driers">Ride On Automatic Scrubber Driers</Link>
                                 </li>
                             </ul>
                         </div>
@@ -65,9 +65,6 @@ const Footer = () => {
                                 <li>
                                     <Link to='mailto: info@krugervac.com'> info@krugervac.com</Link>
                                 </li>
-                                <li>
-                                    <Link to='mailto:  sales@kbequipment.com '> sales@kbequipment.com </Link>
-                                </li>
                             </ul>
                             <div className="footer-social-media">
                                 <SocialMedia />
@@ -80,10 +77,10 @@ const Footer = () => {
                     <div className="footer-copyright-menu">
                         <ul>
                             <li>
-                                <Link onClick={scrollTop} to="/">Disclaimers</Link>
+                                <Link onClick={scrollTop} to="/">Disclaimer</Link>
                             </li>
                             <li>
-                                <Link onClick={scrollTop} to="/">Terms & Condition</Link>
+                                <Link onClick={scrollTop} to="/">Terms & Conditions</Link>
                             </li>
                             <li>
                                 <Link onClick={scrollTop} to="/">Privacy Policy</Link>
