@@ -46,10 +46,10 @@ const Footer = () => {
                             <h2>Our Products</h2>
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/walk-behind-automatic-scrubber-driers">Walk Behind Automatic Scrubber Driers</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/industrial-sweeping-machines">Industrial Sweeping Machines</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/ride-on-automatic-scrubber-driers">Ride On Automatic Scrubber Driers</Link>
+                                    <Link onClick={scrollTop} to="/krugervac/road-sweeping-machines">Road Sweeping Machines</Link>
                                 </li>
                             </ul>
                         </div>

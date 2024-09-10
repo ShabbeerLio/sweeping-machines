@@ -43,9 +43,9 @@ const AboutUs = () => {
                     </div>
                     <div className="about-right">
                         <img className="image2" src={Aboutimg} alt="DLF Andheri Mumbai" />
-                        <div className="about-best">
+                        {/* <div className="about-best">
                             <img src={best} alt="" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Work.css"
-import box1 from "../../Assets/Work/KV-270.png"
-import box2 from "../../Assets/Work/about.png"
+import box1 from "../../Assets/Work/ROAD SWEEPING MACHINES 1.png"
+import box2 from "../../Assets/Work/indutrialclean.png"
 import FAQs from './FAQs'
 // import box2 from "../../Assets/Work/work2.jpg"
 // import box3 from "../../Assets/Work/work3.jpeg"

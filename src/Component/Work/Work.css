@@ -29,6 +29,7 @@
 .Work-box-left img{
   width: 100%;
   object-fit: cover;
+  margin: 2rem 0;
 }
 
 .Work-box-right{

@@ -6,7 +6,8 @@
 
 .highlights-item {
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .highlights-left {
@@ -19,7 +20,7 @@
   align-items: flex-start;
   justify-content: center;
   background-color: #008e98a4;
-  border-radius: 0px 25px 25px 0px;
+  border-radius:25px;
 }
 .highlights-left h2 {
   font-size: 30px;
@@ -32,7 +33,7 @@
   width: 50%;
 }
 .highlights-right img {
-  width: 60%;
+  width: 100%;
   object-fit: cover;
   height: 100%;
   position: absolute;

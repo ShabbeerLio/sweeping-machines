@@ -121,8 +121,8 @@ const Navbar = (props) => {
                                                 Products
                                             </Link>
                                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><Link className={`dropdown-item ${activeLink === '/walk-behind-automatic-scrubber-driers' ? 'active' : ''}`} to="/krugervac/walk-behind-automatic-scrubber-driers" onClick={() => handleLinkClick('/walk-behind-automatic-scrubber-driers')}> <RiArrowDropDownLine />Walk Behind Automatic Scrubber Driers</Link></li>
-                                                <li><Link className={`dropdown-item ${activeLink === '/ride-on-automatic-scrubber-driers' ? 'active' : ''}`} to="/krugervac/ride-on-automatic-scrubber-driers" onClick={() => handleLinkClick('/ride-on-automatic-scrubber-driers')}> <RiArrowDropDownLine />Ride On Automatic Scrubber Driers</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/walk-behind-automatic-scrubber-driers' ? 'active' : ''}`} to="/krugervac/industrial-sweeping-machines" onClick={() => handleLinkClick('/walk-behind-automatic-scrubber-driers')}> <RiArrowDropDownLine />Industrial Sweeping Machines</Link></li>
+                                                <li><Link className={`dropdown-item ${activeLink === '/ride-on-automatic-scrubber-driers' ? 'active' : ''}`} to="/krugervac/road-sweeping-machines" onClick={() => handleLinkClick('/ride-on-automatic-scrubber-driers')}> <RiArrowDropDownLine />Road Sweeping Machines</Link></li>
                                             </ul>
                                         </li>
                                         <li className="nav-item">
