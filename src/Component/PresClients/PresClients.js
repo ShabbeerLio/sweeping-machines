@@ -23,8 +23,8 @@ const PresClients = () => {
         <div className='PresClients'>
             <div className='PresClients-main'>
                 <div className="hService-heading">
-                    <h2>Some of Our Prestigeous Clients</h2>
-                    <p>As we have worked with numerous industry leaders which shines our expertise in language translations & interpretation. Here we have shown some of our prestigious clients.</p>
+                    {/* <h2>Some of Our Prestigeous Clients</h2> */}
+                    {/* <p>As we have worked with numerous industry leaders which shines our expertise in language translations & interpretation. Here we have shown some of our prestigious clients.</p> */}
                 </div>
                 <div className="presClients-box">
                     <ReactOwlCarousel

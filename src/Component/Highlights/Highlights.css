@@ -1,32 +1,36 @@
 .Highlights {
+  padding: 5rem 0rem;
   width: 100%;
+  background-color: white;
   position: relative;
-  padding: 5rem 0;
+}
+
+.Highlights-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .highlights-item {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 }
 
 .highlights-left {
-  position: relative;
   z-index: 2;
-  width: 40%;
+  width: 50%;
   padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: #008e98a4;
-  border-radius:25px;
 }
+
 .highlights-left h2 {
-  font-size: 30px;
+  font-size: 35px;
   text-align: left;
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 
 .highlights-right {
@@ -35,14 +39,27 @@
 .highlights-right img {
   width: 100%;
   object-fit: cover;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
+  z-index: 2;
+  position: relative;
+  /* border: 10px solid #008e98; */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.151);
+
 }
 
+.highlights-right:after {
+  content: "";
+  position: absolute;
+  background-color: #008e98;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 35%;
+}
 @media (min-width: 1200px) {
+  .Highlights-main {
+    max-width: 1140px;
+  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -51,7 +68,6 @@
   }
   .highlights-left {
     width: 100%;
-    padding: 3rem 1rem 1rem 1rem;
   }
   .highlights-right {
     width: 100%;

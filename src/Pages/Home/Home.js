@@ -67,8 +67,8 @@ const Home = (props) => {
             <AboutUs />
             <PresClients />
             <Highlights/>
-            <Walkthrough />
             <Work/>
+            <Walkthrough />
             <CallAction/>
         </div>
     )

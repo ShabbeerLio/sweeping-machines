@@ -2,6 +2,7 @@
   padding: 5rem 0rem;
   width: 100%;
   background-color: white;
+  position: relative;
 }
 
 .about-main {
@@ -65,22 +66,31 @@
 
 .about-right {
   width: 50%;
-  position: relative;
+  /* position: relative; */
 }
 
 .about-right img {
   object-fit: cover;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 95%;
+  z-index: 2;
+  position: relative;
   /* rotate: 90deg; */
+  /* border: 10px solid #008e98; */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.151);
 }
 
-.about-best img {
-  width: 25%;
+.about-right:after {
+  content: "";
   position: absolute;
-  top: 0%;
-  right: 5%;
+  background-color: #008e98;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 35%;
 }
+
 
 .about-experience {
   display: flex;

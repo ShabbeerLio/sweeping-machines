@@ -1,7 +1,8 @@
 .Walkthrough {
-  padding: 3rem 0rem;
+  padding: 5rem 0rem;
   width: 100%;
-  background-color: #008e98;
+  background-color: #D0D1CE;
+  position: relative;
 }
 
 .Walkthrough-main {
@@ -13,44 +14,36 @@
 }
 .Walkthrough-main h2 {
   font-size: 30px;
-  color: white;
-  text-align: center;
+  color: black;
   margin-bottom: 20px;
 }
 
 .walkthrough-item {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .walkthrough-left {
-  width: 60%;
+  width: 55%;
+  margin-top: 2rem;
 }
 
-.walkthrough-left img {
-  border-radius: 8px;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 3/2;
-}
 
-.walkthrough-left iframe {
-  width: 100%;
-  height: 100%;
-}
 .walkthrough-right {
-  width: 40%;
+  width: 45%;
+  position: relative;
+  z-index: 2;
 }
 
 .walkthrough-form {
   padding: 2rem;
   border-radius: 8px;
-  background-color: #fafafa;
+  background-color: #D0D1CE;
 }
 .walkthrough-form h4 {
-  font-size: 18px;
-  margin-bottom: 25px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  /* font-weight: 700; */
 }
 
 @media (min-width: 1200px) {
