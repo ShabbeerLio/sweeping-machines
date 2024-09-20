@@ -5,6 +5,7 @@ import Table from '../../Component/Table/Table';
 import CallAction from '../../Component/CallAction/CallAction';
 import FAQs from '../../Component/Work/FAQs';
 import { useLocation } from 'react-router-dom';
+import ProductCard from './ProductCard';
 
 const Products = ({ title, descriptions, item }) => {
     /* global dataLayer */
@@ -71,20 +72,21 @@ const Products = ({ title, descriptions, item }) => {
         <>
             {data && (
                 <>
-                    <PageBanner banner={data.cover} title={data.title} desc={data.description} />
-                    <div className="product-page">
-                        {data.products.map((j) => (
+                    {/* <PageBanner banner={data.cover} title={data.title} desc={data.description} /> */}
+                    <div className="product-page" key={data.id}>
+                        <div className='Products'>
+                            <div className='Products-main'>
+                                {data.products?.map((i) => (
+                                    <ProductCard data={i}/>
+                                ))}
+                            </div>
+                        </div>
+                        {data.details.map((j) => (
                             <>
                                 <div className='Products' key={j.id}>
                                     <div className='Products-main'>
                                         <div className='Products-box'>
                                             <div className='Products-item'>
-                                                <div className='Products-card'>
-                                                    <img src={j.cover} alt="" />
-                                                </div>
-                                                <div className='Products-card'>
-                                                    <img src={j.featurescov} alt="" />
-                                                </div>
                                                 <div className="product-detail">
                                                     <div >
                                                         <Table item={j} />

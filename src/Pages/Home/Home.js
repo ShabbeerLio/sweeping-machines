@@ -65,9 +65,9 @@ const Home = (props) => {
 
             <Banner />
             <AboutUs />
-            <PresClients />
             <Highlights/>
             <Work/>
+            <PresClients />
             <Walkthrough />
             <CallAction/>
         </div>

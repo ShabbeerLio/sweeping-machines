@@ -127,7 +127,7 @@
   align-items: center;
   position: absolute;
   right: 2%;
-  top: 25%;
+  top: 15%;
 }
 
 .nav-button {
@@ -158,7 +158,7 @@
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #008e98; /* Blue color */
-  border-bottom: 2px solid #008e98; /* Underline */
+  /* border-bottom: 2px solid #008e98; */
 }
 
 .call-button p {
@@ -168,7 +168,7 @@
   justify-content: center;
   margin-left: 5px;
   text-decoration: none;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   color: black;
   width: 130px;
   padding: 10px 20px;
@@ -176,17 +176,18 @@
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   transition: all 0.3s;
-  background-color: #008e98;
-  border-radius: 5px;
+  /* background-color: #008e98; */
   margin-left: 20px;
+  border-left: 1px solid #727272;
 }
 
 .call-button p a {
   text-decoration: none;
-  color: white;
+  color: #008e98;
+  font-size: 20px;
 }
 .call-button p a svg {
-  font-size: 18px;
+  font-size: 24px;
   margin-right: 10px;
 }
 

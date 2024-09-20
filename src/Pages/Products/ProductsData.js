@@ -4,12 +4,41 @@ const ProductsData = [
         title: "Industrial Sweeping Machines",
         tag: "krugervac/industrial-sweeping-machines",
         description: "Our Walk Behind Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
-        cover: require("../../Assets/Products/Walk Behind Scrubber Driers.png"),
         products: [
             {
                 id: 1,
-                cover: require("../../Assets/Products/INDUSTRIAL SWEEPING MACHINES.png"),
-                // featurescov: require("../../Assets/Products/Walk Behindfet.png"),
+                name: "All clean",
+                cover: require("../../Assets/Products/All clean.png"),
+            },
+            {
+                id: 2,
+                name: "KV - 1000",
+                cover: require("../../Assets/Products/kv1000.png"),
+            },
+            {
+                id: 3,
+                name: "KV - 1400",
+                cover: require("../../Assets/Products/kv1400.png"),
+            },
+            {
+                id: 4,
+                name: "KV - 1400 (With Roof)",
+                cover: require("../../Assets/Products/kv1400r.png"),
+            },
+            {
+                id: 5,
+                name: "KV - 1600",
+                cover: require("../../Assets/Products/kv1600.png"),
+            },
+            {
+                id: 6,
+                name: "KV - 1600 (With Roof)",
+                cover: require("../../Assets/Products/kv1600r.png"),
+            },
+        ],
+        details: [
+            {
+                id: 1,
                 heading: [
                     {
                         id: 1,
@@ -234,12 +263,26 @@ const ProductsData = [
         title: "Road Sweeping Machines",
         tag: "krugervac/road-sweeping-machines",
         description: "Our Automatic Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
-        cover: require("../../Assets/Products/Walk Behind Automatic Scrubber Driers.png"),
         products: [
             {
                 id: 1,
-                cover: require("../../Assets/Products/ROAD SWEEPING MACHINES.png"),
-                // featurescov: require("../../Assets/Products/ridon1fet.png"),
+                name: "KV - 1800",
+                cover: require("../../Assets/Products/kv1800.png"),
+            },
+            {
+                id: 2,
+                name: "KV - 2000",
+                cover: require("../../Assets/Products/kv2000.png"),
+            },
+            {
+                id: 3,
+                name: "KV - 2500",
+                cover: require("../../Assets/Products/kv2500.png"),
+            },
+        ],
+        details: [
+            {
+                id: 1,
                 heading: [
                     {
                         id: 1,
