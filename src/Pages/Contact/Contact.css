@@ -1,6 +1,7 @@
 .Contact {
   padding: 0 0 5rem 0rem;
   width: 100%;
+  position: relative;
 }
 
 .Contact-main {
@@ -42,9 +43,19 @@
 .contactdetail-box {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
   width: 100%;
   height: 100%;
+  position: relative;
+  padding: 14rem 2rem 2rem 2rem;
+  background-color: #008e98;
+  border-radius: 8px;
+}
+.contactdetail-box img {
+  width: 80%;
+  position: absolute;
+  top: -25%;
+  left: 0;
 }
 
 .ukrain-office {
@@ -55,26 +66,31 @@
 .Contactbox-right {
   width: 60%;
   background-color: #008e983f;
-  /* background-color: #00678612; */
   padding: 2rem;
   border-radius: 8px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.151);
 }
 
 .contact-detail-card {
-  background-color: #008e98;
-  border-radius: 8px;
-  padding: 2rem;
+  /* background-color: #008e98; */
+  /* border-radius: 8px; */
+  /* padding: 2rem; */
   display: flex;
   align-items: center;
+  /* border: 1px solid rgb(190, 190, 190); */
+  /* box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.151); */
+  padding-top: 5px;
 }
 .contact-detail-card p {
   margin: 0;
   font-size: 14px;
+  color: white;
 }
 
 .contact-detail-card svg {
-  font-size: 50px;
+  font-size: 30px;
   margin-right: 1rem;
+  color: white;
 }
 
 .contactcard-detail h6 {

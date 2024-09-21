@@ -1,7 +1,9 @@
 .Products {
-  padding-top: 5rem;
+  padding-top: 3rem;
   width: 100%;
   background-color: white;
+  position: relative;
+  overflow: hidden;
 }
 .Products:nth-child(even) {
   width: 100%;

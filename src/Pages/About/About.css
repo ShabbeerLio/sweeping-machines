@@ -12,6 +12,13 @@
   margin-left: auto;
 }
 
+.About .aboutUs {
+  padding: 5rem 0rem 12rem 0;
+}
+.About .CallAction {
+  padding: 20rem 0rem 6rem 0;
+}
+
 @media (min-width: 1200px) {
   .About-main {
     max-width: 1140px;

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "./About.css"
-import abbanner from "../../Assets/About/aboutbanner.jpg"
+import abbanner from "../../Assets/About/about banner.jpg"
 import PageBanner from '../../Component/PageBanner/PageBanner'
 import PresClients from '../../Component/PresClients/PresClients'
 import CallAction from '../../Component/CallAction/CallAction'

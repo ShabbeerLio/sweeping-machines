@@ -1,5 +1,5 @@
 .PresClients {
-    padding: 5rem 0rem;
+    /* padding: 5rem 0rem; */
     width: 100%;
     /* background-color: #D0D1CE; */
   }
@@ -10,6 +10,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
   }
 
   .hService-heading{
@@ -29,6 +30,21 @@
     /* border: 1px solid rgb(196, 196, 196); */
   }
 
+  .presclient-box{
+    position: absolute;
+    top: -125px;
+    left: 0;
+    z-index: 2;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: #008e98;
+    width: 100%;
+  }
+
+  .presclient-box h2{
+    color: white;
+  }
+
   @media (min-width: 1200px) {
     .PresClients-main {
       max-width: 1140px;
@@ -36,5 +52,7 @@
   }
 
   @media only screen and (max-width: 540px) {
-    
+    .presclient-box{
+      border-radius: 0px;
+    }
   }

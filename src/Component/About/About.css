@@ -22,6 +22,8 @@
 
 .about-left {
   width: 50%;
+  position: relative;
+  z-index: 2;
 }
 
 .about-title {
@@ -188,5 +190,8 @@
 
   .about-degit-title p {
     left: 44%;
+  }
+  .about-right:after {
+    width: 0%;
   }
 }

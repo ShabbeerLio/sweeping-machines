@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AboutPage.css"
-import Aboutimg from "../../Assets/About/aboutpage2.jpg"
-import Aboutimg1 from "../../Assets/About/aboutpage1.jpg"
+import Aboutimg from "../../Assets/About/about.jpg"
+import Aboutimg1 from "../../Assets/About/about2.jpg"
 
 const AboutPage = () => {
 

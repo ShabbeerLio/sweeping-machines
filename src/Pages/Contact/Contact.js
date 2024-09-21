@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 import Form from '../../Component/Form/Form';
 import cban from "../../Assets/Contact/contactus.jpg"
 import PageBanner from '../../Component/PageBanner/PageBanner';
+import call from "../../Assets/Call/call.png"
 
 const Contact = (props) => {
 
@@ -66,6 +67,7 @@ const Contact = (props) => {
                 <div className='Contact-box'>
                     <div className='Contactbox-left'>
                         <div className="contactdetail-box">
+                            <img src={call} alt="" />
                             <div className="contact-detail-card">
                                 <IoLocationSharp />
                                 <div className="contactcard-detail">

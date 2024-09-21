@@ -1,7 +1,6 @@
 import React from 'react'
 import "./About.css"
 import Aboutimg from "../../Assets/About/about.png"
-import best from '../../Assets/About/best.png'
 
 const AboutUs = () => {
 
@@ -17,7 +16,7 @@ const AboutUs = () => {
             <div className="about-main">
                 <div className="about-title">
                     {/* <h1>About</h1> */}
-                    
+
                     <span></span>
                 </div>
                 <div className="about-items">

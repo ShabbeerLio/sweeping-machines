@@ -43,7 +43,6 @@
   position: relative;
   /* border: 10px solid #008e98; */
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.151);
-
 }
 
 .highlights-right:after {
@@ -68,12 +67,19 @@
   }
   .highlights-left {
     width: 100%;
+    order: 1;
+    padding: 0;
   }
   .highlights-right {
     width: 100%;
+    order: 2;
   }
 
   .highlights-right img {
+    width: 100%;
+  }
+
+  .highlights-right:after {
     width: 100%;
   }
 }

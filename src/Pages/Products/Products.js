@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './Products.css';
-import PageBanner from '../../Component/PageBanner/PageBanner';
 import Table from '../../Component/Table/Table';
 import CallAction from '../../Component/CallAction/CallAction';
 import FAQs from '../../Component/Work/FAQs';
