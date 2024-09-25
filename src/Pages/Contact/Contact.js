@@ -3,7 +3,7 @@ import "./Contact.css"
 import { IoMail, IoLocationSharp } from "react-icons/io5";
 import { useLocation } from 'react-router-dom';
 import Form from '../../Component/Form/Form';
-import cban from "../../Assets/Contact/contactus.jpg"
+import cban from "../../Assets/Contact/contact us.jpg"
 import PageBanner from '../../Component/PageBanner/PageBanner';
 import call from "../../Assets/Call/call.png"
 

@@ -15,8 +15,18 @@ const ProductCard = ({ data }) => {
         });
 
         sr.reveal('.Productcard-box-left', {})
-        sr.reveal('.Productcard-box-right-odd', {})
+        return () => sr.destroy();
+    }, []);
 
+    useEffect(() => {
+        const sr = ScrollReveal({
+            origin: 'right',
+            distance: '100px',
+            duration: 2000,
+            reset: true,
+        });
+
+        sr.reveal('.Productcard-box-right-odd', {})
         return () => sr.destroy();
     }, []);
 
@@ -29,8 +39,18 @@ const ProductCard = ({ data }) => {
         });
 
         sr.reveal('.Productcard-box-right', {})
-        sr.reveal('.Productcard-box-left-odd', {})
+        return () => sr.destroy();
+    }, []);
 
+    useEffect(() => {
+        const sr = ScrollReveal({
+            origin: 'left',
+            distance: '100px',
+            duration: 2000,
+            reset: true,
+        });
+
+        sr.reveal('.Productcard-box-left-odd', {})
         return () => sr.destroy();
     }, []);
 
