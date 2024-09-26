@@ -1,0 +1,65 @@
+.ChooseUs {
+  padding: 6rem 0rem 12rem 0;
+  background: #f1f1f1;
+  width: 100%;
+  position: relative;
+}
+
+.ChooseUs-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ChooseUs-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ChooseUs-box-left {
+  width: 50%;
+}
+.ChooseUs-box-left h2{
+  margin-bottom: 1rem;
+}
+
+.chooseUs-left-card {
+  display: flex;
+  gap: 1rem;
+}
+.chooseUs-left-card p svg {
+  font-size: 40px;
+  border: 2px solid #008e98;
+  border-radius: 50%;
+  padding: 10px;
+  color: #008e98;
+}
+
+.choose-left-card-detail h4 {
+  color: #008e98;
+}
+
+.ChooseUs-box-right {
+  width: 50%;
+}
+
+.ChooseUs-box-right img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+@media (min-width: 1200px) {
+  .ChooseUs-main {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .ChooseUs-box {
+    flex-wrap: wrap;
+  }
+}

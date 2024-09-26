@@ -6,6 +6,7 @@ import PresClients from '../../Component/PresClients/PresClients'
 import CallAction from '../../Component/CallAction/CallAction'
 import AboutPage from '../../Component/AboutPage/AboutPage'
 import { useLocation } from 'react-router-dom'
+import ChooseUs from '../../Component/ChooseUs/ChooseUs'
 
 const About = (props) => {
   /* global dataLayer */
@@ -62,6 +63,7 @@ const About = (props) => {
     <div className='About'>
       <PageBanner banner={abbanner} title={"About Us"} />
       <AboutPage />
+      <ChooseUs/>
       <PresClients />
       <CallAction />
     </div>

@@ -7,6 +7,35 @@
 
 .aboutPage-right {
   width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.aboutPage-card{
+  border-radius: 25px;
+  background-color: #008e98;
+  padding: 1.5rem;
+  color: white;
+}
+
+.aboutPage-card-btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.aboutPage-card-btn a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 8px 24px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 680px) {
