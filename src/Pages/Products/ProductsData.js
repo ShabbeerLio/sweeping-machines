@@ -2,7 +2,7 @@ const ProductsData = [
     {
         id: 1,
         title: "Industrial Sweeping Machines",
-        tag: "krugervac/industrial-sweeping-machines",
+        tag: "sweeping/industrial-sweeping-machines",
         description: "Our Walk Behind Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
         products: [
             {
@@ -261,7 +261,7 @@ const ProductsData = [
     {
         id: 2,
         title: "Road Sweeping Machines",
-        tag: "krugervac/road-sweeping-machines",
+        tag: "sweeping/road-sweeping-machines",
         description: "Our Automatic Scrubber dryers have high contact pressure and scrubbers which can clean, strip and polish both uneven and smooth floors or shampoo carpets.",
         products: [
             {

@@ -1,5 +1,6 @@
 {
   "name": "road-sweeping",
+  "homepage": "https://globalitsources.com/sweeping",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

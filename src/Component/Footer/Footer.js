@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="Footer-main">
                     <div className="footer-detail-box">
                         <div className="footer-left">
-                            <Link onClick={scrollTop} to="/krugervac/">
+                            <Link onClick={scrollTop} to="/sweeping/">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </Link>
                             <p>Kruger Vac is one of the leading suppliers of commercial and industrial vacuum cleaners and other cleaning equipment.</p>
@@ -29,16 +29,16 @@ const Footer = () => {
                             <h2>Quick Links</h2>
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac">Home</Link>
+                                    <Link onClick={scrollTop} to="/sweeping">Home</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/about">About</Link>
+                                    <Link onClick={scrollTop} to="/sweeping/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/contact-us">Contact Us</Link>
+                                    <Link onClick={scrollTop} to="/sweeping/contact-us">Contact Us</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/contact-us">Send Enquery</Link>
+                                    <Link onClick={scrollTop} to="/sweeping/contact-us">Send Enquery</Link>
                                 </li>
                             </ul>
                         </div>
@@ -46,10 +46,10 @@ const Footer = () => {
                             <h2>Our Products</h2>
                             <ul>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/industrial-sweeping-machines">Industrial Sweeping Machines</Link>
+                                    <Link onClick={scrollTop} to="/sweeping/industrial-sweeping-machines">Industrial Sweeping Machines</Link>
                                 </li>
                                 <li>
-                                    <Link onClick={scrollTop} to="/krugervac/road-sweeping-machines">Road Sweeping Machines</Link>
+                                    <Link onClick={scrollTop} to="/sweeping/road-sweeping-machines">Road Sweeping Machines</Link>
                                 </li>
                             </ul>
                         </div>
