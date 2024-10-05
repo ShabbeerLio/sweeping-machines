@@ -51,7 +51,7 @@
     }
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 680px) {
     .presclient-box{
       border-radius: 0px;
     }

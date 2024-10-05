@@ -11,7 +11,7 @@ const Highlights = () => {
             <div className='Highlights-main'>
                 <div className="highlights-item">
                     <div className="highlights-right">
-                        <img src={walkimg} alt="DLF Andheri Mumbai" />
+                        <img src={walkimg} alt=" " />
                     </div>
                     <div className="highlights-left">
                         <h2>Our Auto Scrubber dryers</h2>

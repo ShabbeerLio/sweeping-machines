@@ -11,7 +11,7 @@ const AboutPage = () => {
             <div className="about-main">
                 <div className="about-items">
                     <div className="aboutPage-right">
-                        <img src={Aboutimg1} alt="DLF Andheri Mumbai" />
+                        <img src={Aboutimg1} alt=" " />
                     </div>
                     <div className="about-left">
                         <div className="about-detail">
@@ -53,7 +53,7 @@ const AboutPage = () => {
                             <h4>Our Commitment to Excellence</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, facere.</p>
                         </div>
-                        {/* <img src={Aboutimg} alt="DLF Andheri Mumbai" /> */}
+                        {/* <img src={Aboutimg} alt=" " /> */}
                     </div>
                 </div>
 

@@ -417,9 +417,13 @@
     right: -5%;
   }
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 680px) {
   .navBar {
     top: 0;
+  }
+
+  .company-logo {
+    width: 70%;
   }
 
   .company-logo img {

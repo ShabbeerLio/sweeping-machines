@@ -42,6 +42,7 @@
   .aboutPage-right {
     width: 100%;
     order: 2;
+    flex-wrap: wrap;
   }
   .about-degit h3 {
     font-size: 80px;

@@ -58,8 +58,14 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 680px) {
   .ChooseUs-box {
     flex-wrap: wrap;
+  }
+  .ChooseUs-box-left {
+    width: 100%;
+  }
+  .ChooseUs-box-right {
+    width: 100%;
   }
 }
