@@ -90,15 +90,16 @@
 @media only screen and (max-width: 680px) {
   .ProductCard-box {
     flex-wrap: wrap;
+    margin: 4rem 0;
   }
   .Productcard-box-right,
   .Productcard-box-right-odd {
     width: 100%;
-    order: 1;
+    order: 2;
   }
   .Productcard-box-left,
   .Productcard-box-left-odd {
     width: 100%;
-    order: 2;
+    order: 1;
   }
 }

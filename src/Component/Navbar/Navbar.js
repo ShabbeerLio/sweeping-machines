@@ -83,7 +83,7 @@ const Navbar = (props) => {
                                     data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent"
                                     aria-controls="navbarSupportedContent"
-                                    aria-expanded="false"
+                                    aria-expanded={isCollapseOpen ? "true" : "false"}
                                     aria-label="Toggle navigation"
                                     onClick={closeMenu}>
                                     <span className="toggler-icon top-bar"></span>
@@ -171,9 +171,11 @@ const Navbar = (props) => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="celebrate">
-                                <img src={celimg} alt="" />
-                            </div>
+                            {!isCollapseOpen && (
+                                <div className="celebrate">
+                                    <img src={celimg} alt="Celebration" />
+                                </div>
+                            )}
                             <div className="fix-icon-call">
                                 <span className='shine'></span>
                                 <Link to='tel: +919810291946'>
